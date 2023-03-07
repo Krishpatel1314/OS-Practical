@@ -16,3 +16,10 @@ then
 else
     echo "$num is not Palindrome"
 fi
+
+# OUTPUT:
+# Enter a number:12121
+# 12121 is Palindrome
+# ----------------------
+# Enter a number:12345
+# 12345 is not Palindrome

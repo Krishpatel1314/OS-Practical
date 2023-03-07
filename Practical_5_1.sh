@@ -8,3 +8,7 @@ do
     fact=$((fact * i))
 done
 echo "Factorial of $a is $fact"
+
+# OUTPUT:
+# Enter a number:5
+# Factorial of 5 is 120

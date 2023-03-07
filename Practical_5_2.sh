@@ -9,3 +9,7 @@ do
     rev="$rev${a:$i:1}"
 done
 echo "$rev"
+
+# OUTPUT:
+# Enter a number/string:Krish 1314
+# 4131 hsirK

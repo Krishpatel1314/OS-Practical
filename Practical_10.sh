@@ -26,3 +26,12 @@ case "${a}" in
         echo "Invalid Input"
     ;;
 esac
+
+# OUTPUT:
+# -----------MENU--------------
+# 1)Create
+# 2)Update
+# 3)Delete
+# 4)Exit
+# Enter a number:1
+# Item Created

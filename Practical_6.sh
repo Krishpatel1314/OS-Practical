@@ -16,3 +16,10 @@ if [ $flag -eq 0 ]
     then
         echo "$a a prime number"
 fi
+
+# OUTPUT:
+# Enter a number:23
+# 23 a prime number
+# --------------------
+# Enter a number:20
+# 20 not a prime number

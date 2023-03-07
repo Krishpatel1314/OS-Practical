@@ -8,3 +8,10 @@ then
 else
     echo "$a is odd."
 fi
+
+# OUTPUT:
+# Enter a number:13
+# 13 is odd.
+# --------------------
+# Enter a number:14
+# 14 is even.

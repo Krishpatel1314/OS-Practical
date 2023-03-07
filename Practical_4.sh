@@ -13,7 +13,7 @@ read -p 'Enter Marks Sub5:' e
 sum=`expr $a + $b + $c + $d + $e`
 per=`expr $sum / 5`
 echo "Total Marks:$sum"
-echo "Percentage:$per"
+echo "Percentage:$per%"
 
 if (("$per">=85)) 
 then
@@ -27,3 +27,14 @@ then
 else
     echo "Failed!!"
 fi
+
+# OUTPUT:
+# Enter the marks of five Subject[out of 100]:
+# Enter Marks Sub1:95
+# Enter Marks Sub2:87
+# Enter Marks Sub3:76
+# Enter Marks Sub4:83
+# Enter Marks Sub5:90
+# Total Marks:431
+# Percentage:86%
+# First Class

@@ -14,3 +14,9 @@ then
 else
     echo "C is Smallest"
 fi
+
+# OUTPUT:
+# Enter number A:22
+# Enter number B:13
+# Enter number C:14
+# B is Smallest
