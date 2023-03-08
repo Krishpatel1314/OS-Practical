@@ -29,3 +29,4 @@ fi
 # Enter number B:13
 # Enter number C:14
 # B is Smallest
+# A is Largest
