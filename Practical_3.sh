@@ -14,6 +14,15 @@ then
 else
     echo "C is Smallest"
 fi
+if (("$a>$b" && "$a">"$c")) 
+then
+    echo "A is Largest"
+elif (("$b>$a" && "$b">"$c"))  
+then
+    echo "B is Largest"
+else
+    echo "C is Largest"
+fi
 
 # OUTPUT:
 # Enter number A:22
