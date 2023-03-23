@@ -8,7 +8,7 @@ for((i=$len-1;i>=0;i--))
 do
     rev="$rev${a:$i:1}"
 done
-echo "$rev"
+echo "Reverse:$rev"
 
 # OUTPUT:
 # Enter a number/string:Krish 1314

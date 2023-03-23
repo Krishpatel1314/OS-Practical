@@ -12,10 +12,10 @@ then
     echo "Directory $file Found!!"
 elif [ -b $file ]  
 then
-    echo "Block device $file Found!!"
+    echo "File-Block $file Found!!"
 elif [ -c $file ]
 then 
-    echo "Charcter $file Found!!"
+    echo "Character $file Found!!"
 else
     echo "$file not Found!!"    
 fi
