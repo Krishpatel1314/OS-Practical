@@ -1,8 +1,9 @@
+// Write a program to create a child process using fork() system call. 
 #include<stdio.h>
 #include<stdlib.h>
 int main()
 {
-	for(int i=0;i<5;i++) // loop will run n times (n=5)
+	for(int i=0;i<5;i++) 
 	{
 		if(fork() == 0)
 		{
@@ -10,7 +11,7 @@ int main()
 			exit(0);
 		}
 	}
-	for(int i=0;i<5;i++) // loop will run n times (n=5)
+	for(int i=0;i<5;i++) 
 	wait(NULL);	
 }
 

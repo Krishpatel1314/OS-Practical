@@ -85,3 +85,27 @@ int main()
     sjf();
     return 0;
 }
+
+/*
+OUTPUT:
+Enter no. of process you want to enter:4
+Enter the process number:1 2 3 4
+Enter the burst time of the process:7 4 2 1
+
+--------------------FCFS------------------
+Process          Burst time      Waiting time    Turn Around time
+1                7               0               7
+2                4               7               11
+3                2               11              13
+4                1               13              14
+Average Waiting Time:7.750000
+Average turn around time:11.250000
+--------------------SJF------------------
+Process          Burst time      Waiting time    Turn Around time
+4                1               0               1
+3                2               1               3
+2                4               3               7
+1                7               7               14
+Average Waiting Time:4.687500
+Average turn around time:9.062500
+*/
